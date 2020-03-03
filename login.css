@@ -1,0 +1,219 @@
+body {
+    background-color: #f0f3ff !important;
+    font-family: "Ubuntu",sans-serif !important;
+}
+/* navbar  */
+.header {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+}
+.nav-links {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+.nav-links a {
+    margin: 20px;
+    position: relative;
+    color: #082487;
+    transition: all 0.3s;
+}
+.nav-links .nav-links-center{
+    display: block;
+    text-align: center;
+}
+.nav-links svg {
+    position: absolute;
+    right: 50%;
+    bottom: 100%;
+    transform: translate(50%, 0%);
+}
+.nav-links-right {
+    position: absolute;
+    right: -100%;
+    top: 54%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+.container {
+    width: 700px !important;
+    height: auto;
+    padding: 4% 13% !important;
+    text-align: center;
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+    background-color: white;
+    box-shadow: rgba(98, 84, 232, 0.2) 0px 5px 25px;
+}
+.form-control {
+    margin: 2rem 0;
+}
+.h1-text {
+    font-size: 32px;
+    color: #082487;
+    font-weight: 600;
+    margin-bottom: 10%;
+}
+input.form-control {
+    margin: 0 !important;
+    border-radius: 25px;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.feedback {
+    color: #dc3545;
+}
+.btn.btn-warning {
+    height: 45px;
+    max-width: 237px;
+    min-width: 200px;
+    width: 50%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background: rgb(253, 126, 20);
+    border-radius: 40px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    transition: all 0.3s ease 0s;
+    margin: 5% 0px 3%;
+}
+.btn.btn-warning:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(253, 126, 20);
+    transform: translateY(-3px);
+    box-shadow: rgb(214, 151, 119) 0px 4px 8px 0px;
+}
+.forgot-pass {
+    margin: 5% 0;
+    font-size: 19px;
+    
+}
+.forgot-pass a{
+    color: #082487;
+}
+.forgot-pass  a:hover {
+    color: #0735d8;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.container p {
+    font-size: 18px;
+    margin-top: 10%;
+}
+.find-teacher a{
+    color: #082487;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.falsee {
+    border-color: #dc3545 !important;
+    
+}
+/* footer  */
+.footer-inner {
+    color: #082487;
+    background-color: #dce0f6;
+    font-family: Montserrat, sans-serif;
+    padding: 5% 40px;
+}
+.footer-contain {
+    display: flex;
+    padding-bottom: 5%;
+    border-bottom: 2px solid #8a97ca;
+}
+.logo {
+
+}
+.footer-right {
+    margin-left: 39.5%;
+    display: flex;
+}
+.footer-link {
+}
+.list-items {
+    display: flex;
+}
+.us-item {
+    margin: 0 25px;
+}
+.us-item h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+.us-item ul{
+    list-style: none;
+    padding: 0;
+}
+.us-item li {
+    font-size: 15px;
+    transition:all 0.3s;
+    line-height: 24px;
+    
+}
+.us-item li:hover {
+    color: rgb(219, 95, 30);
+    
+}
+.footer-contain-button {
+    margin-right: 0px;
+}
+.footer-contain-button button {
+    line-height: 24px;
+    font-size: 15px;
+    width: 120px;
+    padding: 8px;
+    background: white;
+    border: 1px solid #082487;
+    border-radius: 25px;
+    color: #082487;
+    transition: all 0.3s;
+}
+.footer-contain-button button:hover {
+    transform: translateY(-3px);
+    box-shadow: rgb(18, 31, 157) 0px 6px 9px;
+}
+/* footer-follow  */
+.footer-follow {
+    padding-top: 4%;
+    display: flex;
+}
+.footer-social .cover {
+    display: inline-block;
+}
+.footer-social {
+    margin-left: 70%;
+}
+.footer-social a {
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    margin: -10px 3px;
+    transition: all 0.3s ease 0s;
+}
+.footer-social .facebook {
+    background-image: url(./image/fb.png);
+}
+.footer-social .insta {
+    background-image: url(./image/insta.png);
+}
+.footer-social .twitter {
+    background-image: url(./image/twitter.png);
+}
+.footer-social a:hover {
+    transform: scale(1.3);
+}
+.cover.follow {
+    width: auto;
+}
