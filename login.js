@@ -1,9 +1,9 @@
 function getInfo (){
-    var email = document.getElementById("email").value;
-    var password = document.getElementById("password").value;
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
     console.log("email: ",email);
     console.log("password: ",password);
-    var reg = /^\w+@[a-zA-Z]{3,}\.com$/i;
+    const reg = /^\w+@[a-zA-Z]{3,}\.com$/i;
     if (reg.test(email) === false) {
         console.log(reg.test(email));   
         document.getElementById("erroremail").innerHTML="Wrong Email";
@@ -14,7 +14,7 @@ function getInfo (){
          document.getElementById("erroremail").innerHTML=""; 
          
     };
-    if (password == "")
+    if (password === "")
     {
         document.getElementById("errorpass").innerHTML="Wrong Password";
         document.getElementById("password").style.borderColor = "#dc3545";
